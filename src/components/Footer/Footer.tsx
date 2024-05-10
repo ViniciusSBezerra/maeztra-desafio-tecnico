@@ -24,26 +24,26 @@ export const Footer = () => {
                 <div className="flex  flex-col gap-6">
                     <p className="text-base font-bold leading-[18px]">Informações</p>
 
-                    <ul className="flex flex flex-col gap-6">
+                    <ul className="flex  flex-col gap-6">
                         <li className="text-xs leading-[18px] font-normal">Quem Somos</li>
                         <li className="text-xs leading-[18px] font-normal">Prazo de Envio</li>
                         <li className="text-xs leading-[18px] font-normal">Trocas e Devoluções</li>
                         <li className="text-xs leading-[18px] font-normal">Promoções e Cupons</li>
                     </ul>
                 </div>
-                <div className="flex flex flex-col gap-6">
+                <div className="flex  flex-col gap-6">
                     <p className="text-base font-bold leading-[18px]">Minha Conta</p>
-                    <ul className="flex flex flex-col gap-6">
+                    <ul className="flex  flex-col gap-6">
                         <li className="text-xs leading-[18px] font-normal">Minha Conta</li>
                         <li className="text-xs leading-[18px] font-normal">Meus Pedidos</li>
                         <li className="text-xs leading-[18px] font-normal">Cadastre-se</li>
 
                     </ul>
                 </div>
-                <div className="flex flex flex-col gap-6">
+                <div className="flex  flex-col gap-6">
                     <p className="text-base font-bold leading-[18px]">Onde nos Encontrar</p>
 
-                    <ul className="flex flex flex-col gap-6">
+                    <ul className="flex  flex-col gap-6">
                         <li className="text-xs leading-[18px] font-normal">Lojas</li>
                         <li className="text-xs leading-[18px] font-normal">Endereço</li>
 
