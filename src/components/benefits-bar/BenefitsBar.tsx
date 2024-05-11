@@ -9,7 +9,7 @@ import truck from "../../assets/benefitsbar/truck.png"
 
 
 export const BenefitsBar = () => {
-    return <section className="flex flex-col max-w-[1598px] mx-auto">
+    return <section className="flex flex-col max-w-[1598px] mx-auto mt-6">
         <p className="font-bold text-base leading-[24.34px] w-full text-center">Por que comprar na Maeztra?</p>
 
         <div className="flex gap-4 mt-4 overflow-x-auto">
