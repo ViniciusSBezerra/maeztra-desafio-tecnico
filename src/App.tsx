@@ -6,6 +6,7 @@ import { Carousel } from "./components/slider-layout/SliderLayout"
 
 import banner from "./assets/Slider/banner-principal.png"
 import { TagPartners } from "./components/tag-partners/TagPartners"
+import { SliderProduct } from "./components/slider-products/SliderProducts"
 
 function App() {
 
@@ -18,6 +19,8 @@ function App() {
       <BenefitsBar />
 
       <TagPartners />
+
+      <SliderProduct />
 
       <InfoCard />
 

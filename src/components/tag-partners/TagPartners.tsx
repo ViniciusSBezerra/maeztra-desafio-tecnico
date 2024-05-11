@@ -10,11 +10,11 @@ export const TagPartners = () => {
         <p className="font-bold text-2xl leading-[36.5px] lg:text-[32px] lg:leading-[48.67px] text-center">Marcas Parceiras</p>
 
         <div className="flex overflow-x-auto gap-[15px] mx-auto">
-            <img className="max-w-[308px] w-full h-16" src={Commar} alt="" />
-            <img className="max-w-[308px] w-full h-16" src={Melissa} alt="" />
-            <img className="max-w-[308px] w-full h-16" src={Forever21} alt="" />
-            <img className="max-w-[308px] w-full h-16" src={Zara} alt="" />
-            <img className="max-w-[308px] w-full h-16" src={AnnTaylor} alt="" />
+            <img className="max-w-[308px] w-full h-16" src={Commar} alt="Melissa" />
+            <img className="max-w-[308px] w-full h-16" src={Melissa} alt="Melissa" />
+            <img className="max-w-[308px] w-full h-16" src={Forever21} alt="Forever21" />
+            <img className="max-w-[308px] w-full h-16" src={Zara} alt="Zara" />
+            <img className="max-w-[308px] w-full h-16" src={AnnTaylor} alt="AnnTaylor" />
         </div>
     </section>
 }
