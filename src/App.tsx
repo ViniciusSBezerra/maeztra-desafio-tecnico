@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer/Footer"
 
 
 import { BenefitsBar } from "./components/benefits-bar/BenefitsBar"
@@ -12,6 +13,10 @@ function App() {
 
   return (
 
+
+
+
+
     <>
 
 
@@ -23,6 +28,8 @@ function App() {
       <SliderProduct />
 
       <InfoCard />
+
+      <Footer />
 
 
     </>
