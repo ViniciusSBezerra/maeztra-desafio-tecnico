@@ -1,3 +1,7 @@
+import { Header } from "./components/header/Header"
+import { TopBar } from "./components/header/Topbar"
+import { MenuNav } from "./components/header/menu-nav/MenuNav"
+
 import { Footer } from "./components/Footer/Footer"
 
 
@@ -12,12 +16,10 @@ import { SliderProduct } from "./components/slider-products/SliderProducts"
 function App() {
 
   return (
-
-
-
-
-
     <>
+      <TopBar />
+      <Header />
+      <MenuNav />
 
 
       <Carousel images={[banner, banner, banner, banner]} />
@@ -31,11 +33,7 @@ function App() {
 
       <Footer />
 
-
     </>
-
-
-
 
   )
 }
