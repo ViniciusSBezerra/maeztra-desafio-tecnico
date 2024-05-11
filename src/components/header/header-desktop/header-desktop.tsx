@@ -11,7 +11,7 @@ export const HeaderDesktop = () => {
             <div className="w-100"><LogoDesktop /> </div>
 
             <div className="flex gap-[15px] h-[26px] w-full max-w-[791px] md:gap-0 md:h-[40px] bg-[#EFEFEF]   rounded-lg ">
-                <input className="w-full border bg-[#EFEFEF]  text-[#353535] pl-6 rounded-lg font-normal text-sm leading-[21px] lg:border-r-[0] lg:rounded-tr-none  lg:rounded-br-none" type="text" placeholder="O Que Você Busca?" />
+                <input className="w-full border bg-[#EFEFEF] outline-none text-[#353535] pl-6 rounded-lg font-normal text-sm leading-[21px] lg:border-r-[0] lg:rounded-tr-none  lg:rounded-br-none" type="text" placeholder="O Que Você Busca?" />
                 <button className="bg-[#FAA500] text-sm font-normal leading-[21px] text-[#FFFFFF] w-full rounded-lg max-w-[119px]"> Buscar</button>
             </div>
 
