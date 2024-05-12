@@ -6,11 +6,13 @@ import { Footer } from "./components/Footer/Footer"
 
 
 import { Home } from "./pages/Home"
+import { FirstAccess } from "./components/FirstAccess/FirstAccess"
 
 function App() {
 
   return (
     <>
+      <FirstAccess />
       <TopBar />
       <Header />
       <MenuNav />
